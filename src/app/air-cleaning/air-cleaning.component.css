@@ -1,0 +1,181 @@
+.container_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label.checkbox {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+}
+
+label.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+label.checkbox:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+label.checkbox:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  background-color: #007bff;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+label.checkbox input[type="checkbox"]:checked + :after {
+  opacity: 1;
+}
+
+.text {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.button {
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.headingOne {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 2em;
+  color: #4CAF50;
+}
+
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+
+.button {
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+h1 {
+  padding-top: 10%;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 2em;
+  color: #4CAF50;
+}
+
+
+p{
+  text-align: center;
+  margin-top: 2em;
+  color: black;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2em;
+  margin: 1em;
+}

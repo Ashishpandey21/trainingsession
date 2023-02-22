@@ -1,0 +1,63 @@
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.button {
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 2em;
+  color: black;
+}
+ p{
+   text-align: center;
+   margin-top: 2em;
+   color: black;
+ }
+
+.error-message {
+  color: red;
+  font-size: 1.2em;
+  margin: 1em;
+}
+
+
+
+.btn2 {
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+

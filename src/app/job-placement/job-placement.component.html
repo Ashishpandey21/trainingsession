@@ -1,0 +1,24 @@
+<h1>Job Placement</h1>
+<p>Your selected {{buttonValue}} from the Fixture Setup module</p>
+
+<app-loader *ngIf="showLoader"></app-loader>
+<div class="button-container">
+  <div class="button-row">
+    <button class="button"  (click)="matchSelection(1)">ROTOR ASSY 14P X 16MM ES FAN</button>
+    <button class="button" (click)="matchSelection(2)">ROTOR CASTED 14X14X13 mm CRCA</button>
+  </div>
+  <div class="button-row">
+    <button class="button" (click)="matchSelection(3)">ROTOR CASTED 12X12X13 CRCA</button>
+    <button class="button"(click)="matchSelection(4)">ROTOR CASTED 14P 14 mm 112FC -CRCA</button>
+  </div>
+  <div class="button-row">
+    <button class="button" (click)="matchSelection(5)">ROTOR CASTED 8P/12 P X 14 MM (NEW)</button>
+  </div>
+</div>
+  <div class="button-row">
+    <button (click)="openStartCyclePopup()"  *ngIf="showButton" class="btn2">Start Cycle</button>
+  </div>
+<p class="error-message">{{ errorMessage }}</p>
+
+
+

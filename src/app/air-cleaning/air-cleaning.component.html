@@ -1,0 +1,33 @@
+<div   *ngIf="airCleanShow === true">
+  <h1 class="heading">Your Job is completed</h1>
+  <div class="button-container">
+  <div class="button-row">
+  <button class="button" (click)="airCleanStart()">Click to start air cleaning</button>
+  <button class="button" (click)="error()">Click to start washing</button>
+  </div >
+  <div class="button-row">
+    <button class="button" (click)="error()">Click to start lubrication</button>
+    <button class="button" (click)="error()">Click to start restart</button>
+  </div>
+  </div>
+</div>
+
+<p class="error-message">{{ err }}</p>
+
+
+
+<div class="button-container" *ngIf="airCleanShow === false">
+  <div>
+    Two checkbox should be here on od reading and id reading
+    <p>OD SIZE : {{OdReading}}</p>
+    <p>ID SIZE : {{IdReading}}</p>
+  </div>
+  <h1  class="headingOne"> QA Check </h1>
+  <div class="button-row">
+    <button class="button" (click)="okUrl()" >Ok</button>
+  </div>
+  <div class="button-row">
+    <button class="button" (click)="notOkUrl()">Not Ok</button>
+  </div>
+</div>
+
